@@ -1,31 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-*{
+* {
     background-color: rgb(35, 31, 31);
     color: white;
     font-family: 'Lato', sans-serif;
 }
 
-*::-webkit-scrollbar{
+*::-webkit-scrollbar {
     width: .5rem;
     background-color: rgb(157, 149, 107);
     border-radius: .5rem;
 }
-*::-webkit-scrollbar-thumb{
+
+*::-webkit-scrollbar-thumb {
     width: .5rem;
     background-color: orange;
     border-radius: .5rem;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.header{
+.header {
     margin: 2rem;
 }
 
-.card{
+.card {
     width: 25%;
     height: 30rem;
     border-radius: .5rem;
@@ -36,11 +37,13 @@ a{
     margin-right: 5%;
 }
 
-.card:hover, .card2:hover, .card3:hover{
+.card:hover,
+.card2:hover,
+.card3:hover {
     transform: scale(1.01);
 }
 
-.logo{
+.logo {
     width: 8rem;
     height: 8rem;
     border: 1px solid rgb(175, 172, 172);
@@ -48,36 +51,36 @@ a{
     margin: 1rem auto;
 }
 
-.name{
+.name {
     margin: .2rem auto;
     width: max-content;
     color: white;
     font-weight: 800;
 }
 
-.line{
+.line {
     width: 90%;
     border-bottom: .15rem solid white;
     margin: .5rem auto;
     margin-bottom: 2rem;
 }
 
-.details{
+.details {
     width: max-content;
     margin: .5rem auto;
     font-size: 1.3rem;
     font-weight: bolder;
 }
 
-.details div{
+.details div {
     margin-bottom: 2rem;
 }
 
-.d-flex{
+.d-flex {
     display: flex;
 }
 
-.card2{
+.card2 {
     width: 70%;
     height: 30rem;
     border-radius: .5rem;
@@ -87,7 +90,7 @@ a{
     transition: ease-in-out .3s;
 }
 
-.card2 img{
+.card2 img {
     border-bottom-left-radius: .5rem;
     border-top-left-radius: .5rem;
     border: 1px solid rgb(175, 172, 172);
@@ -99,51 +102,65 @@ a{
     border-right: .15em solid orange;
     white-space: nowrap;
     margin: 5rem auto;
-    letter-spacing: .15em; 
-    animation: 
-      typing 5s steps(40, end),
-      blink-caret .75s step-end infinite;
-}
-  
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-  
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
+    letter-spacing: .15em;
+    animation:
+        typing 5s steps(40, end),
+        blink-caret .75s step-end infinite;
 }
 
-.social h2{
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+.social h2 {
     text-align: center;
     margin: 4rem 0;
     letter-spacing: .2rem;
 }
 
-.social-links{
+.social-links {
     font-size: 3rem;
     width: 40%;
     margin: 0 auto;
+    display: flex;
+    gap: 16px;
 }
 
-.social-links i{
+.social-links i {
     margin-right: 5%;
 }
 
-.scroller{
+.scroller {
     text-align: center;
     margin: 5rem;
     letter-spacing: .2rem;
 }
 
-.scroller i{
+.scroller i {
     font-size: 3rem;
 }
 
-.card3{
+.card3 {
     width: 23rem;
     border-radius: .5rem;
     box-shadow: .5rem .5rem 1rem rgb(79, 76, 76);
@@ -157,67 +174,67 @@ a{
     letter-spacing: .2rem;
 }
 
-.preview-container h1{
+.preview-container h1 {
     letter-spacing: .2rem;
 }
 
-.preview-container p{
+.preview-container p {
     letter-spacing: .1rem;
 }
 
-.orange-text{
+.orange-text {
     color: orange;
     text-decoration: underline;
     text-decoration-color: rgb(157, 149, 107);
 }
 
-.hide{
+.hide {
     display: none;
 }
 
-.certifications{
+.certifications {
     margin-top: 4rem;
 }
 
-.certifications h1{
+.certifications h1 {
     letter-spacing: .3rem;
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
 
-.certifications .card2{
+.certifications .card2 {
     margin: 1rem auto;
 }
 
-.certifications .options{
+.certifications .options {
     width: max-content;
     margin: 2rem auto;
 }
 
-.certifications .card2 img{
+.certifications .card2 img {
     margin-right: .5rem !important;
     border-radius: 0;
 }
 
-.certifications .card2 .controls{
+.certifications .card2 .controls {
     margin-top: 7rem;
 }
 
-.small-icons .row1{
+.small-icons .row1 {
     justify-content: space-between;
     margin-bottom: 3rem;
 }
 
-.small-icons .row2{
+.small-icons .row2 {
     justify-content: space-between;
 }
 
-.list{
+.list {
     margin: 2rem;
     letter-spacing: .2rem;
 }
 
-.list p{
+.list p {
     cursor: pointer;
 }
