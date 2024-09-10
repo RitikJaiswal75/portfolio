@@ -14,15 +14,15 @@ function ContactCard() {
                 <div className="my-2">
                     <div className="flex items-center break-all text-white gap-2 mb-4">
                         <i className="ri-mail-send-line text-white font-bold text-xl"></i>
-                        <a href="mailto:ritikjaiswalse@gmail.com" className="text-white font-medium text-lg">ritikjaiswalse@gmail.com</a>
+                        <a href="mailto:ritikjaiswalse@gmail.com" className="text-white font-bold text-lg">ritikjaiswalse@gmail.com</a>
                     </div>
                     <div className="flex items-center break-all text-white gap-2 mb-4">
                         <i className="ri-phone-find-line text-white font-bold text-xl"></i>
-                        <a href="tel:+918792083160" className="text-white font-medium text-lg">+91 879-2083-160</a>
+                        <a href="tel:+918792083160" className="text-white font-bold text-lg">+91 879-2083-160</a>
                     </div>
                     <div className="flex items-center break-all text-white gap-2 mb-4">
                         <i className="ri-map-pin-line text-white font-bold text-xl"></i>
-                        <a href="https://www.google.com/maps/place/Bellandur" className="text-white font-medium text-lg">Bellandur, Bangalore</a>
+                        <a href="https://www.google.com/maps/place/Bellandur" className="text-white font-bold text-lg">Bellandur, Bangalore</a>
                     </div>
                 </div>
             </div>

@@ -24,6 +24,9 @@ export default {
         wiggle: 'wiggle .5s ease-in-out 5',
       },
     },
+    fontFamily: {
+      'body': ['Lato', 'serif']
+    }
   },
   plugins: [],
 }
