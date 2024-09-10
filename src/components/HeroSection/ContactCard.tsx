@@ -5,11 +5,11 @@ function ContactCard() {
         <div className="w-full sm:w-1/4 border-2 border-slate-200 rounded-xl px-4 hover:scale-105 transition ease-in-out shadow-[-.5rem_.5rem_1rem_rgb(79,76,76)]">
             <div className="py-2 pt-4">
                 <img src="/images/profile_v1.jpg" className="rounded-xl w-2/3 mx-auto" alt="Ritik Jaiswal" />
-                <Text variant='title' element="h1" className="text-white font-bold my-2">Ritik Jaiswal</Text>
+                <Text variant='title' element="h1" className="text-white font-bold my-2 text-center">Ritik Jaiswal</Text>
                 <div className="w-full border-t-2 my-2"></div>
             </div>
 
-            <div className="w-full">
+            <div className="w-full flex-col">
                 {/* email id */}
                 <div className="my-2">
                     <div className="flex items-center break-all text-white gap-2 mb-4">
