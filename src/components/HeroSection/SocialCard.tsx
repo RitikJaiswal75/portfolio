@@ -7,11 +7,11 @@ function SocialCard() {
             <div className='sm:w-2/5 py-4 max-h-[80vh] flex justify-center'>
                 <img src="/images/ritik_portrait.webp" alt="Ritik Jaiswal" className='rounded-xl h-[70vh]' />
             </div>
-            <div className='py-2 flex flex-col h-[50%] my-auto'>
+            <div className='sm:w-3/5 py-2 flex flex-col h-[50%] my-auto items-center justify-center'>
                 <AnimatedText text='Hello World!! Welcome to my space!' />
                 <div className="w-full border-t-2 mt-auto"></div>
                 <p className='text-2xl font-medium text-white mt-8'>Follow me on Social media</p>
-                <div className='mt-auto'>
+                <div className='mt-auto w-full'>
                     <Socials />
                 </div>
             </div>
