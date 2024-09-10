@@ -1,4 +1,3 @@
-import React from 'react'
 import AnimatedText from './AnimatedText'
 import Socials from './Socials'
 
