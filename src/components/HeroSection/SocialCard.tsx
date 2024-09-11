@@ -10,7 +10,7 @@ function SocialCard() {
             <div className='sm:w-3/5 py-2 flex flex-col h-[50%] my-auto items-center justify-center'>
                 <AnimatedText text='Hello World!! Welcome to my space!' />
                 <div className="w-full border-t-2 mt-auto"></div>
-                <p className='text-2xl font-bold text-white mt-8'>Follow me on Social media</p>
+                <p className='text-2xl font-bold text-white lg:mt-8 break-all'>Follow me on Social media</p>
                 <div className='mt-auto w-full'>
                     <Socials />
                 </div>
