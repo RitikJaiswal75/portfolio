@@ -1,6 +1,5 @@
 export type ToggleButtonProps = {
-    text: string;
-    setActiveScreen: (screenName: string) => void;
+    text: "About Me" | "My Experiences" | "Recognitions";
 }
 
 export type ToggleContainerProps = {
