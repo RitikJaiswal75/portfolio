@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 import AboutMe from "./AboutMe"
 import Toggles from "./Toggles"
 import Experience from "./Experience"
@@ -10,7 +10,7 @@ function About() {
             <Toggles />
             <div className="sm:w-4/5 max-h-[80vh] overflow-y-auto">
                 <Routes>
-                    <Route path="/" element={<Experience />} />
+                    <Route path="/" element={<Navigate to='/experience' />} />
                     <Route path="/about" element={<AboutMe />} />
                     <Route path="/recognitions" element={<Recognition />} />
                     <Route path="/experience" element={<Experience />} />
