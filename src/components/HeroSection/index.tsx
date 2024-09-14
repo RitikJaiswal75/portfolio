@@ -3,10 +3,10 @@ import SocialCard from "./SocialCard"
 
 function HeroSection() {
     return (
-        <div className="flex gap-8 flex-col md:flex-row">
+        <main className="flex gap-8 flex-col md:flex-row">
             <ContactCard />
             <SocialCard />
-        </div>
+        </main>
     )
 }
 
