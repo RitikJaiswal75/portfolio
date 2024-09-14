@@ -11,7 +11,7 @@ const availableScreens = {
 }
 
 function About() {
-    const [activeScreen, setActiveScreen] = useState(availableScreens.ABOUT)
+    const [activeScreen, setActiveScreen] = useState(availableScreens.EXPERIENCE)
     return (
         <section id='experience' className="w-full flex flex-col md:flex-row border-2 border-slate-200 rounded-xl px-4 shadow-[.5rem_.5rem_1rem_rgb(79,76,76)] sm:gap-8 my-8">
             <Toggles setActiveScreen={setActiveScreen} />
