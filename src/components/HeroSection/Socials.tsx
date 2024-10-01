@@ -1,18 +1,36 @@
+import { portfolioData } from "../../data/allData"
+
+const socialIcons: { [key: string]: JSX.Element } = {
+    linkedin: <i className="ri-linkedin-box-line"></i>,
+    twitter: <i className="ri-twitter-line"></i>,
+    github: <i className="ri-github-fill"></i>,
+    instagram: <i className="ri-instagram-line"></i>,
+    youtube: <i className="ri-youtube-line"></i>
+}
+
+// Define the type for the available socials
+type SocialKey = keyof typeof portfolioData.social.availableSocials;
+
 function Socials() {
     return (
         <div className="flex text-4xl text-white justify-evenly">
-            <a target="_blank" href="https://www.linkedin.com/in/ritikjaiswal75/" className="animate-wiggle hover:scale-110 transition ease-in-out"><i
-                className="ri-linkedin-box-line"></i></a>
-            <a target="_blank" href="https://twitter.com/RitikJaiswal75" className="animate-wiggle hover:scale-110 transition ease-in-out"><i
-                className="ri-twitter-line"></i></a>
-            <a target="_blank" href="https://www.github.com/ritikjaiswal75/" className="animate-wiggle hover:scale-110 transition ease-in-out"><i
-                className="ri-github-fill"></i></a>
-            <a target="_blank" href="https://www.instagram.com/_ritikj1/" className="animate-wiggle hover:scale-110 transition ease-in-out"><i
-                className="ri-instagram-line"></i></a>
-            <a target="_blank" href="https://www.youtube.com/@ritikjaiswal75/" className="animate-wiggle hover:scale-110 transition ease-in-out"><i
-                className="ri-youtube-line"></i></a>
+            {Object.keys(portfolioData.social.availableSocials).map((social) => {
+                const socialKey = social as SocialKey; // Type assertion
+                const url = portfolioData.social.availableSocials[socialKey]; // Use the typed key
+                return (
+                    <a
+                        key={social}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={url}
+                        className="animate-wiggle hover:scale-110 transition ease-in-out"
+                    >
+                        {socialIcons[socialKey]}
+                    </a>
+                )
+            })}
         </div>
     )
 }
 
-export default Socials
+export default Socials;
