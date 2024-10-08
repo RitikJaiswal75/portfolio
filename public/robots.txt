@@ -4,3 +4,5 @@ Disallow: /admin/
 Allow: /experience
 Allow: /about
 Allow: /recognitions
+
+Sitemap: https://ritik.cc/sitemap.xml
