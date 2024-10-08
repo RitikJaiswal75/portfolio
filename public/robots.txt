@@ -5,5 +5,6 @@ Allow: /experience
 Allow: /about
 Allow: /recognitions
 Allow: /sitemap.xml
+Allow: /robots.txt
 
 Sitemap: https://ritik.cc/sitemap.xml
