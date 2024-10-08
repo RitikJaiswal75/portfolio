@@ -6,4 +6,3 @@ Allow: /about
 Allow: /recognitions
 
 Sitemap: https://ritik.cc/sitemap.xml
-Sitemap: https://ritik.cc/sitemap.xml
