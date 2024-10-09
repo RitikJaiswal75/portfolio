@@ -1,3 +1,5 @@
+import React from "react"
+
 function KnowMoreInfo() {
     return (
         <section className="hidden sm:flex flex-col justify-center items-center w-full text-white gap-8 mt-8">

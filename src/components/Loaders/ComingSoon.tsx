@@ -1,3 +1,5 @@
+import React from "react"
+
 function ComingSoon() {
     return (
         <div className="flex items-cwenter justify-center text-white font-medium text-2xl gap-2">

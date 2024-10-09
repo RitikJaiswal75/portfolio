@@ -1,3 +1,5 @@
+import React from "react"
+
 function Recognition() {
     return (
         <div className="text-white sm:p-2 font-medium flex-col gap-4 sm:text-xl">
