@@ -2,7 +2,7 @@ import React from "react"
 
 function Experience() {
     return (
-        <div className="text-white sm:p-2 font-medium flex-col gap-4 sm:text-xl">
+        <div className="text-white sm:p-2 font-medium flex-col gap-4 sm:text-xl" id="experience">
             <h2 className="text-2xl font-bold text-center">Experience</h2>
             <span className="underline text-[#c79c18] font-bold">JioCinema | Viacom18:</span> Frontend Engineer
             <br />

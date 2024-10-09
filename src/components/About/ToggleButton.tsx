@@ -2,9 +2,9 @@ import type { ToggleButtonProps } from "./types";
 import React from "react";
 
 const textToKeyMapper = {
-    'About Me': 'about',
-    'My Experiences': '',
-    'Recognitions': 'recognitions'
+    'About Me': 'about#about',
+    'My Experiences': '#experience',
+    'Recognitions': 'recognitions#recognition'
 };
 
 function ToggleButton({ text }: ToggleButtonProps) {

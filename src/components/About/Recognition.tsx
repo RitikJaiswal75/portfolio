@@ -2,7 +2,7 @@ import React from "react"
 
 function Recognition() {
     return (
-        <div className="text-white sm:p-2 font-medium flex-col gap-4 sm:text-xl">
+        <div className="text-white sm:p-2 font-medium flex-col gap-4 sm:text-xl" id="recognition">
             <h2 className="text-2xl font-bold text-center">Recognition</h2>
             <ul className="list-disk ml-2 px-2">
                 <li><span className="underline text-[#c79c18] font-bold">Special Recognition:</span> Honored for serving as a Game Marshal during multiple IPL matches, ensuring smooth streaming coordination.</li>
