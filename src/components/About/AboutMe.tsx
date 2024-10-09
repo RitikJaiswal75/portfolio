@@ -1,7 +1,9 @@
+import React from "react"
+
 function AboutMe() {
     return (
-        <div className="text-white sm:p-2 font-medium flex-col gap-4 sm:text-xl">
-            <h1 className="text-2xl font-bold text-center">About me</h1>
+        <div className="text-white sm:p-2 font-medium flex-col gap-4 sm:text-xl" id="about">
+            <h2 className="text-2xl font-bold text-center">About me</h2>
             Hi, I'm <span className="underline text-[#c79c18] font-bold">Ritik Jaiswal</span>, a passionate Frontend Developer with over 2 years of experience. Here's a bit about me:
             <br />
             <br />

@@ -1,3 +1,4 @@
+import React from "react"
 import { portfolioData } from "../../data/allData"
 
 function ContactCard() {

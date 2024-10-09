@@ -1,7 +1,9 @@
+import React from "react"
+
 function Experience() {
     return (
-        <div className="text-white sm:p-2 font-medium flex-col gap-4 sm:text-xl">
-            <h1 className="text-2xl font-bold text-center">Experience</h1>
+        <div className="text-white sm:p-2 font-medium flex-col gap-4 sm:text-xl" id="experience">
+            <h2 className="text-2xl font-bold text-center">Experience</h2>
             <span className="underline text-[#c79c18] font-bold">JioCinema | Viacom18:</span> Frontend Engineer
             <br />
             <p className="text-sm text-[#c79c18]"> Nov-2023 - Present</p>

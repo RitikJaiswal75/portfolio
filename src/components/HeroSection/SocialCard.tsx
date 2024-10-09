@@ -1,3 +1,4 @@
+import React from 'react'
 import { portfolioData } from '../../data/allData'
 import AnimatedText from './AnimatedText'
 import Socials from './Socials'

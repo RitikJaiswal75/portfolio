@@ -1,0 +1,85 @@
+---
+// BaseLayout.astro
+// You can add props like title, meta tags, etc., if needed.
+import HeroSection from '../components/HeroSection/index.tsx'
+import Toggles from '../components/About/Toggles.tsx'
+import KnowMoreInfo from '../components/KnowMoreInfo.tsx'
+import ComingSoon from '../components/Loaders/ComingSoon.tsx'
+import DownloadResume from '../components/DownloadResume.tsx'
+import '../styles/global.css';
+---
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/images/profile_v1.jpg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Ritik Jaiswal">
+
+  <title>Full stack software developer | Ritik Jaiswal </title>
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" as="style"
+    onload="this.rel='stylesheet'">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lato&display=swap" as="style"
+    onload="this.rel='stylesheet'">
+
+
+  <link rel="preload" href="/images/profile_v1.webp" as="image">
+  <link rel="preload" href="/images/profile_portrait.webp" as="image">
+
+  <meta name="description"
+    content="Ritik Jaiswal is a full-stack developer with 2+ years in React, TypeScript, backend development, Discord bots, and Mocha testing." />
+
+  <meta name="robots" content="index, follow">
+
+  <link rel="canonical" href="https://ritik.cc/">
+
+  <meta name="keywords"
+    content="Ritik Jaiswal, full-stack developer, frontend engineer, backend development, React, TypeScript, JavaScript, web optimization, scalable applications, Discord bots, Mocha testing, networking, Noida, Bangalore, Allahabad, Prayagraj, Delhi, software engineering, application development, web development, cloud computing, Agile, CI/CD, Git, SQL, NoSQL, Java, Python, software testing, software architecture, JioCinema, TCS projects, technology enthusiast, software development, tech community, mobile application development, software internships, remote work, coding tutorials, open source projects, data structures, algorithms, user interface design, problem-solving, team collaboration, technical documentation, DevOps, microservices, RESTful APIs, performance testing, agile Scrum, project management, IT consulting, software lifecycle, digital transformation, database management, coding challenges, technical interviews, personal projects, cybersecurity solutions, IT events, software workshops, programming languages, coding bootcamps, machine learning, artificial intelligence, networking strategies, building a tech portfolio, software prototyping, business intelligence, e-commerce development, fintech solutions, healthcare technology, _ritikj1, ritik jaiswal 75, moodys" />
+
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ritik.cc/">
+  <meta property="og:title" content="Ritik Jaiswal">
+  <meta property="og:description"
+    content="Explore Ritik's portfolio showcasing projects, skills, and experience in software development and technology.">
+  <meta property="og:image" content="https://portfolio.ritik.cc/images/profile_v1.jpg">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://ritik.cc/">
+  <meta name="twitter:title" content="Ritik Jaiswal">
+  <meta name="twitter:description"
+    content="Check out Ritik's portfolio showcasing projects and skills in software development.">
+  <meta name="twitter:image" content="https://ritik.cc/images/profile_v1.jpg">
+
+  <style>
+    *::-webkit-scrollbar {
+      width: .5rem;
+      background-color: rgb(157, 149, 107);
+      border-radius: .5rem;
+    }
+
+    *::-webkit-scrollbar-thumb {
+      width: .5rem;
+      background-color: orange;
+      border-radius: .5rem;
+    }
+  </style>
+  </head>
+  <body class="bg-[#231f1e]">
+    
+    <main class="my-4 sm:my-12 max-w-[1400px] mx-auto">
+      <HeroSection />
+      <KnowMoreInfo />
+      <section id='experience' class="w-full flex flex-col md:flex-row border-2 border-slate-200 rounded-xl px-4 shadow-[.5rem_.5rem_1rem_rgb(79,76,76)] sm:gap-8 my-8">
+      <Toggles client:only />
+        <div class="sm:w-4/5 max-h-[80vh] min-h-[55vh] lg:min-h-[20vh] xl:min-h-[15vh] overflow-y-auto">
+            <slot/>
+        </div>
+      </section>
+      <ComingSoon />
+      <DownloadResume />
+    </main>
+
+  </body>
+</html>
