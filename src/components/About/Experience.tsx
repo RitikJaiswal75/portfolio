@@ -9,10 +9,10 @@ function Experience() {
       <ul className="list-disc px-2 ml-2">
         <li>
           Implement Workflow builder to streamline the process of running
-          template
+          template.
         </li>
-        <li>Work on multiple products both in vue and react</li>
-        <li>Implement pricing formula ui changes</li>
+        <li>Work on multiple products both in vue and react.</li>
+        <li>Implement pricing formula ui changes.</li>
         <li>Part of insurance business unit.</li>
       </ul>
       <br />
