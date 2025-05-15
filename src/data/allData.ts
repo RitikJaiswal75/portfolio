@@ -3,8 +3,8 @@ export const portfolioData = {
   contactCard: {
     email: "ritikjaiswalse@gmail.com",
     phone: "+918792083160",
-    location: "Prayahraj, Uttar pradesh",
-    locationUrl: "https://www.google.com/maps/place/Bellandur",
+    location: "Prayagraj, Uttar pradesh",
+    locationUrl: "https://www.google.com/maps/place/prayagraj",
   },
   social: {
     catchPhrase: "Hello World!! Welcome to my space!",
